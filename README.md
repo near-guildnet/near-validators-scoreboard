@@ -31,3 +31,17 @@ ACCOUNT_ID,NUM_PRODUCED_BLOCKS,NUM_EXPECTED_BLOCKS,ONLINE
 a.betanet,99,100,99
 node0,500,500,100
 ```
+
+### Setup
+
+```
+$ npm install
+```
+
+You will also need the collected data in the current folder.
+
+### Run
+
+```
+$ npm run build:scoreboard
+```
