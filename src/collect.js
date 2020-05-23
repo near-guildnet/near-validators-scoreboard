@@ -46,7 +46,10 @@ const sendRequestsForGivenPeriod = async (url) => {
 
 const writeFile = ({ lastBlockHeightInPreviousEpoch, validators }) => {
   const jsonData = JSON.stringify(validators, null, 2);
-  fs.writeFileSync(`${lastBlockHeightInPreviousEpoch}.json`, jsonData);
+  try {
+    fs.mkdirSync('stats');
+  } catch {}
+  fs.writeFileSync(`stats/${lastBlockHeightInPreviousEpoch}.json`, jsonData);
 };
 
 sendRequestsForGivenPeriod(URL).then(writeFile);
