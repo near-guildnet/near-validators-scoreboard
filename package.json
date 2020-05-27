@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "collect:previous-epoch": "node src/collect.js",
-    "build:scoreboard": "node src/build-scoreboard.js"
+    "aggregate:scoreboard": "node src/aggregate-scoreboard.js"
   },
   "keywords": [],
   "author": "",

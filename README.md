@@ -22,7 +22,7 @@ Single run produces a JSON file with the stats for the epoch before the current.
 $ npm run collect:previous-epoch
 ```
 
-## Data Analysis
+## Data Aggregation
 
 A simple script that produces the scoreboard CSV file from the collected epoch stats. The CSV format:
 
@@ -43,5 +43,7 @@ You will also need the collected data in the current folder.
 ### Run
 
 ```
-$ npm run build:scoreboard
+$ npm run aggregate:scoreboard
 ```
+
+This will produce a `validators_scoreboard.csv` in the `stats` folder.
