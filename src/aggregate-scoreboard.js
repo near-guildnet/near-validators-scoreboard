@@ -8,7 +8,7 @@ async function aggregateValidatorsScoreboard(statsFolder) {
   const validatorsStats = new Map()
 
   for await (const statsFile of dir) {
-    if (!statsFile.isFile() || !statsFile.name.endsWith('.json')) {
+    if (!statsFile.isFile() || !statsFile.name.match(/\d+\.json/)) {
       continue
     }
     const epochValidatorsStats = JSON.parse(fs.readFileSync(path.join(statsFolder, statsFile.name)))
@@ -29,6 +29,17 @@ async function aggregateValidatorsScoreboard(statsFolder) {
   validatorsScoreboard.sort(([_1, validatorStats1], [_2, validatorStats2]) => {
     return validatorStats2.num_produced_blocks - validatorStats1.num_produced_blocks
   })
+
+  fs.writeFileSync(
+    path.join(statsFolder, 'validators_scoreboard.json'),
+    JSON.stringify(
+      validatorsScoreboard.map(([account_id, { num_produced_blocks, num_expected_blocks }]) => {
+        return { account_id, num_expected_blocks, num_produced_blocks }
+      }),
+      null,
+      2
+    )
+  )
 
   let validatorsScoreboardCsv = 'ACCOUNT_ID,NUM_PRODUCED_BLOCKS,NUM_EXPECTED_BLOCKS,ONLINE\n'
   for (const [account_id, validatorStats] of validatorsScoreboard) {
