@@ -25,8 +25,13 @@ async function aggregateValidatorsScoreboard(statsFolder) {
     }
   }
 
+  const validatorsScoreboard = [...validatorsStats.entries()]
+  validatorsScoreboard.sort(([_1, validatorStats1], [_2, validatorStats2]) => {
+    return validatorStats2.num_produced_blocks - validatorStats1.num_produced_blocks
+  })
+
   let validatorsScoreboardCsv = 'ACCOUNT_ID,NUM_PRODUCED_BLOCKS,NUM_EXPECTED_BLOCKS,ONLINE\n'
-  for (const [account_id, validatorStats] of validatorsStats.entries()) {
+  for (const [account_id, validatorStats] of validatorsScoreboard) {
     validatorsScoreboardCsv += `"${account_id}",${validatorStats.num_produced_blocks},${
       validatorStats.num_expected_blocks
     },${validatorStats.num_produced_blocks / validatorStats.num_expected_blocks}\n`
