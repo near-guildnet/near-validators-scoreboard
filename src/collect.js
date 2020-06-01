@@ -10,7 +10,7 @@ async function getValidators(url, blockHeight) {
     method: "validators",
     params: [blockHeight],
   });
-  if (!data || !data.result || !data.result.epoch_start_height) {
+  if (!data || (!data.error && (!data.result || !data.result.epoch_start_height))) {
     throw Error(`Unknown API response: ${data}`);
   }
   return data;
@@ -19,6 +19,9 @@ async function getValidators(url, blockHeight) {
 const getCurrentEpochStart = async (url) => {
   try {
     const response = await getValidators(url, null);
+    if (response.error) {
+      throw Error(response.error);
+    }
     const { epoch_start_height: epochStartHeight } = response.result;
     return epochStartHeight;
   } catch (error) {
