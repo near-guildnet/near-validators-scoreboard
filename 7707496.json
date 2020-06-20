@@ -1,0 +1,992 @@
+[
+  {
+    "account_id": "a_validator",
+    "public_key": "ed25519:4LqT2m4WmZFDkRxMrRwAg7cnE4jEfzrAdNWqRcCWxgfY",
+    "is_slashed": false,
+    "stake": "200262742785261175794991537975",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 200,
+    "num_expected_blocks": 200
+  },
+  {
+    "account_id": "ag_staking",
+    "public_key": "ed25519:5RFyRfrUetiG4bxmWKtRqbXtDtT2acngUBZYrCXk2Mja",
+    "is_slashed": false,
+    "stake": "113125243157793610148134106248",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "akme.betanet",
+    "public_key": "ed25519:6Njh1rmDvpehWDQPFR6qCVZgBSns5GsB53NSm1bPFw6h",
+    "is_slashed": false,
+    "stake": "156495399953253687322470252112",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 200,
+    "num_expected_blocks": 200
+  },
+  {
+    "account_id": "alexzz",
+    "public_key": "ed25519:6r4U8jPVZbfT8Z8CGrFRWeTtwirrGpuZobosZ71M8ojA",
+    "is_slashed": false,
+    "stake": "118320358986275178568782701608",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "alive29",
+    "public_key": "ed25519:8qDFejq6yrEfH8edasrYjrtRJTr3s9kq1NMKX3U1XKAa",
+    "is_slashed": false,
+    "stake": "122647875861298541074083830817",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "andrew_builder",
+    "public_key": "ed25519:8AU88QbrNbYs7hLLhq1hCR1BD3rf6RetjcTJpFQtB62M",
+    "is_slashed": false,
+    "stake": "166300000000001054131895735000",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 0,
+    "num_expected_blocks": 200
+  },
+  {
+    "account_id": "anonstake",
+    "public_key": "ed25519:6Q6GTPhSiYHuKQD2BjWhNXCCBcBZMVUwZTG5EKczur4S",
+    "is_slashed": false,
+    "stake": "125714194952782462528037277239",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "applied",
+    "public_key": "ed25519:4oa5HphrqGwHagVWzQ8YKchJTuNjGpZqpVKqUWZFm16j",
+    "is_slashed": false,
+    "stake": "122752619742033833848830891039",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "aptemuyc4",
+    "public_key": "ed25519:Dzcdmjxo6wqD8vHgxkGM7wccXrxcWpCpZ6JzrPvr5KZy",
+    "is_slashed": false,
+    "stake": "108711357675590219381882379005",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 0,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "averonix",
+    "public_key": "ed25519:4Je5ZNRHW6usvkNi1coviAAbeFCct7qLTjCriWFP8Ua1",
+    "is_slashed": false,
+    "stake": "83883509814033069487408238485",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "bambarello",
+    "public_key": "ed25519:EWvyjf18NBvVT2fmEy3ipcfcjmnHvP5qFew49iC5czsv",
+    "is_slashed": false,
+    "stake": "112953790432291650951980792419",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "baziliksub",
+    "public_key": "ed25519:Eqp4SbQPuaGym7JbUJZ129Tbi8ms1kgKqjyrHA4qFCtm",
+    "is_slashed": false,
+    "stake": "142898555011383102807099491840",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "bitcat.stakehouse.betanet",
+    "public_key": "ed25519:FpLUTtw7Se3mZHPLG3ZNbwNbK9k3xDxeCc9pR7fWxkKT",
+    "is_slashed": false,
+    "stake": "143901521990634414510797955968",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 99,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "blazenet",
+    "public_key": "ed25519:Cji8JGjQ6G4p6QcT2Yq2k7Pr41aZ23RTXAePKgeDUxni",
+    "is_slashed": false,
+    "stake": "128902027426942392989647751676",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 91,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "blink",
+    "public_key": "ed25519:GZGBTHvnhJNp87ZaZ7CiGJZi53SruYLdNj5SVMya9p2w",
+    "is_slashed": false,
+    "stake": "110296641536943136868789831142",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "bucket",
+    "public_key": "ed25519:6TCBt4yLU6m4KKPPiVX9NumZuHEB5aPcNRJoLrUecg4w",
+    "is_slashed": false,
+    "stake": "113916090732048453515132659986",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "c2.inotel.betanet",
+    "public_key": "ed25519:H51EyzhMdP9sWi64e2wMVueG9TbP7pJnfnr39288qs8t",
+    "is_slashed": false,
+    "stake": "142248048642481930521430867280",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 96,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "cher5",
+    "public_key": "ed25519:5gQCbF5EiRkphhuAagPZwCEZKajDL1ZNYX9q8jUSoH4V",
+    "is_slashed": false,
+    "stake": "103070619145820711068998529723",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 99,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "cloudpost_pool",
+    "public_key": "ed25519:AVVLmJDG8z6UgmW9fmJGVFTdYxxfnqXH6c7FVQmhE6dp",
+    "is_slashed": false,
+    "stake": "111020386111811460115681729456",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "contract.bartalamew.betanet",
+    "public_key": "ed25519:J6BXuxtX6Pu72RbfokQkJjfNYGHhsACSAbi4UNuEX4gV",
+    "is_slashed": false,
+    "stake": "110348965254980580243765864731",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "cryp",
+    "public_key": "ed25519:7XZfMnhLqe8cPhiB2RjA6FNt75d2QpmwArSfLuNEp6dn",
+    "is_slashed": false,
+    "stake": "111063178724846209431918102989",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "cryptium.stakehouse.betanet",
+    "public_key": "ed25519:5uLRDmAWfF2fbzm5taVf8qXcUeCgtcVPZdAKupKZ8fxN",
+    "is_slashed": false,
+    "stake": "192002437252555869050877143990",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 200,
+    "num_expected_blocks": 200
+  },
+  {
+    "account_id": "dochpryof",
+    "public_key": "ed25519:Fao69e1AsMWZru7wckTapjZhNJhN7CsJ5ZbzPFTfoka8",
+    "is_slashed": false,
+    "stake": "117953154362954707366837542236",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "driftforall",
+    "public_key": "ed25519:BRYH1vUoH6sDVboLcPz5AVNp4hkxeo36iN2gFFQAVida",
+    "is_slashed": false,
+    "stake": "105691272463798701055413343920",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "farm",
+    "public_key": "ed25519:HrvY2e3J8tTQ9T4d9j3FUEhMNhuezzLMa165sdoz8gmA",
+    "is_slashed": false,
+    "stake": "216919913117067307946636565196",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 0,
+    "num_expected_blocks": 200
+  },
+  {
+    "account_id": "felixschulz",
+    "public_key": "ed25519:E9wRngygkNQNfQLMJjkztaLiesckPoVdFPddGhqvGudn",
+    "is_slashed": false,
+    "stake": "113920697934072948952543229907",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 99,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "fredrik_pool",
+    "public_key": "ed25519:812BZ452dc5TYnK3SuVBzDWBahG5fRobST36acHVhHK5",
+    "is_slashed": false,
+    "stake": "115600438825614542118114621133",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 97,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "gems",
+    "public_key": "ed25519:84UPBh7a8z2CMEy6HmJFAphfQfdMGcXoukNeoNgTVnFM",
+    "is_slashed": false,
+    "stake": "92268181055905485861120210165",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "get_rich",
+    "public_key": "ed25519:ARoCgrjV6Q86wFWEyMag6ygcAVZoBBrorJq7GsZEaWtL",
+    "is_slashed": false,
+    "stake": "178921457290355902116302727582",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 187,
+    "num_expected_blocks": 200
+  },
+  {
+    "account_id": "goodstake2",
+    "public_key": "ed25519:9xerq852CTpSorVDUT5F6EN9V8epCATJEZcz3NCNH5va",
+    "is_slashed": false,
+    "stake": "104255433039345280918218244368",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "isillien",
+    "public_key": "ed25519:45CJTQuuUUi2bXWuBpJsas7rPibNtgVt2W5uCNfTgJiH",
+    "is_slashed": false,
+    "stake": "112060884534737001452032657667",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "janliamnilsson",
+    "public_key": "ed25519:GmfJ9ByRXANEHfB5w9QwGao6Uat6LyfWibZneyLeBBDp",
+    "is_slashed": false,
+    "stake": "116332621916749012907784552722",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 99,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "jaroslavrud",
+    "public_key": "ed25519:BYZQScWPwRxe7b7RqqreB38NzYtjzzbWX4rhme81G9Vm",
+    "is_slashed": false,
+    "stake": "111005779558279088912859949656",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "jazza",
+    "public_key": "ed25519:F9JZDXtxt46oyhjPcQdp4b8CdUDLKSg8kuefJMS8rApj",
+    "is_slashed": false,
+    "stake": "115181438806343423144529193737",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "joe1",
+    "public_key": "ed25519:Go7L8oBfrLueQkhYnH4zzDNBaDAdu8P9i96D7sgc2eXM",
+    "is_slashed": false,
+    "stake": "156165581505046784237680092146",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 200,
+    "num_expected_blocks": 200
+  },
+  {
+    "account_id": "kokos-anti-covid",
+    "public_key": "ed25519:EqxLHgz5dHjamWWCPYrQShMB2h8xKuN75P6yujGJXnr6",
+    "is_slashed": false,
+    "stake": "116412309826707038306840671555",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "kvasnear",
+    "public_key": "ed25519:AXpucQ3GzthPVCcT6N4gpjFXygvHgU7Uq9uqxWmxQ6B1",
+    "is_slashed": false,
+    "stake": "176268981057100448122186270909",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 200,
+    "num_expected_blocks": 200
+  },
+  {
+    "account_id": "launooskuarttu",
+    "public_key": "ed25519:Frfpt7xwGyicxuGiH2KPy7pyhVMEou3a55CpvdDAiLQH",
+    "is_slashed": false,
+    "stake": "116570733617617419692756562361",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "lunanova_pool",
+    "public_key": "ed25519:9ioRvprV8u2URpm6wAoGx3AbAJdGNyp8hZJxra4irotE",
+    "is_slashed": false,
+    "stake": "115071947176771647571824548518",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "masternode24",
+    "public_key": "ed25519:7GTm6xXJBFmPvuQXJeuaejwEQtpwnLocpM5eTUaQ8ckV",
+    "is_slashed": false,
+    "stake": "105162486125424698682570946381",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "mathwallet",
+    "public_key": "ed25519:2uBDxxQGP16XGHJHx9XeRtyZtdbUVWgKW2qiswQMZjcm",
+    "is_slashed": false,
+    "stake": "105967537117474861227113788665",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "meleapool",
+    "public_key": "ed25519:H6PAVhnKnp26gqQ1h5HwGVAvFB1ceaP3LFQwX6L8NSvY",
+    "is_slashed": false,
+    "stake": "114519734314881930909613531235",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "mmm",
+    "public_key": "ed25519:HpJkSU7tBe69viKfUysFbcCeTcgFJ83TTHXz7sfd7hro",
+    "is_slashed": false,
+    "stake": "121251344346334901572130714233",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "mort1.mort.betanet",
+    "public_key": "ed25519:8MMAjK1BxtGugdVJ7LeEZPKXuGGTY3682YcoT2sTHRw6",
+    "is_slashed": false,
+    "stake": "110345788975286750385579372456",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "nazar92",
+    "public_key": "ed25519:AU3DCrtoBxJUQshRgbGSyNYo8EBPfARaaNBcNSFB9ez5",
+    "is_slashed": false,
+    "stake": "131142195886461188840366736311",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 99,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "nearcool2",
+    "public_key": "ed25519:82nvGNKGx5e1Hk7aJNWWQH9bgHE4YmyD3mJ7s83UdTF9",
+    "is_slashed": false,
+    "stake": "141619931692790063038360065892",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "node0",
+    "public_key": "ed25519:7PGseFbWxvYVgZ89K1uTJKYoKetWs7BJtbyXDzfbAcqX",
+    "is_slashed": false,
+    "stake": "110122403295630925566472452292",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "olaiolsen",
+    "public_key": "ed25519:sT5iqZ3WeFMKQx7sjcak4NnKBS3fKdLY2kAwzWi2uVP",
+    "is_slashed": false,
+    "stake": "117054042403496498551986480258",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 98,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "olegjan",
+    "public_key": "ed25519:2tapGm29zD71WKfvxRpRgMc3R7zv8iyM1eV6WYU6FE81",
+    "is_slashed": false,
+    "stake": "107657430365980446536624843405",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "oligarr",
+    "public_key": "ed25519:HqksthhKWmjAaiMLntcMz334TcdaADEWTQYoSYdtUrYs",
+    "is_slashed": false,
+    "stake": "114674664912317076606983019582",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "optimisticvalidator",
+    "public_key": "ed25519:frogMkugWJLmPvL1ZNKHK4g3q95r4tVfJj7KUDfw34S",
+    "is_slashed": false,
+    "stake": "112626232849461369283066506342",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "ou812",
+    "public_key": "ed25519:2k5Wedcv52aTbDzNmZkKEC9iATGhBpU4arLWoKwWpZ6v",
+    "is_slashed": false,
+    "stake": "85899999999919606434147520000",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "plex2",
+    "public_key": "ed25519:6qQ4kCneSDGumfQSZLRiFag34KypP9cmS5AYNKBUq22M",
+    "is_slashed": false,
+    "stake": "119971854772987434940085589025",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "poolz",
+    "public_key": "ed25519:3Ym8oP47ZKAUmMYKVKHXp2feL3wDCSF14rVnuuJdHijU",
+    "is_slashed": false,
+    "stake": "105687174655890559853763439841",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "rockpathpool",
+    "public_key": "ed25519:4GzkTonF8bFbjuBMxQe4ruQKuKKjUWtmXrSZ8XfyacNX",
+    "is_slashed": false,
+    "stake": "144749696320544597019680125799",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "ryabina",
+    "public_key": "ed25519:FLrYLCWPErGHTHg8mNfcXGHxaEpyAWB2ngjNytAyWXp8",
+    "is_slashed": false,
+    "stake": "100555892937699823679514622076",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "shudo",
+    "public_key": "ed25519:6g1q7A5BZJKx8kNQiNXjLBkiW59h8Bp7cYQWAuk31QTS",
+    "is_slashed": false,
+    "stake": "110294548743140945275740622647",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "silver1",
+    "public_key": "ed25519:9SWnx9jxzRydJRcFAutKpxC1SA7WKM3iF3CzJXZ2MXLE",
+    "is_slashed": false,
+    "stake": "156450024179238254877812467283",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 200,
+    "num_expected_blocks": 200
+  },
+  {
+    "account_id": "simonhugo",
+    "public_key": "ed25519:CuoBxwz8smgDZqYaW9TCo92v67Jn1Gu2xKyTfUhLcWGP",
+    "is_slashed": false,
+    "stake": "132196147367749553905062133412",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "sl-he",
+    "public_key": "ed25519:6bVNqQDFzKvFxnziQPoxmvTx9ojH4EAo873xSvaRVL9u",
+    "is_slashed": false,
+    "stake": "117033262730684645473548847053",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 99,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "sl1sub",
+    "public_key": "ed25519:EGCw1rG1LhVqRByDqiT7PC7QFwgrSMoP5PXTwDhrJXkb",
+    "is_slashed": false,
+    "stake": "115088440725770233174469357270",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 1,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "sllpool",
+    "public_key": "ed25519:DbjX97wwhzVTnkApwq8a7fZhBJ91VLv2iWtJEzhTFMnY",
+    "is_slashed": false,
+    "stake": "108330720600930462369390221039",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "smart.askold.betanet",
+    "public_key": "ed25519:7o4Pim8m4Ya7kSW42f9yeSk8BrnYRq98qsjTS3Wbjjsr",
+    "is_slashed": false,
+    "stake": "114973326985010188462938008307",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "somebody",
+    "public_key": "ed25519:GBWN5LhjL7jZN9PazMiwHZw6jWQSPNEsJCpXY1DJma2h",
+    "is_slashed": false,
+    "stake": "113888910341018631220987765279",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "stake2earnfunds2",
+    "public_key": "ed25519:AamXTuwhkcW8qPw1JhbcnHCEGTJ58C9XqnEJf2yuGerU",
+    "is_slashed": false,
+    "stake": "133083842761597005865582039816",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "stakery",
+    "public_key": "ed25519:F6PoUtbtYBGJcfDpKaTycBL4GjpNk5qXAHGV9f2kMoKo",
+    "is_slashed": false,
+    "stake": "83006221085177362763377180562",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "stakewolf_pool",
+    "public_key": "ed25519:9Sv6QRWAoqE74H5W7WkRwuNhorKbSGbSZ8xEzDcpnZCi",
+    "is_slashed": false,
+    "stake": "101171007399265484185782054272",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "stakin",
+    "public_key": "ed25519:8E2S23orCPU97THn1KH7C2bFo9oXaX3VeBGAJak5v1Aw",
+    "is_slashed": false,
+    "stake": "123530819494463044291417906869",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "staking.dsrv.betanet",
+    "public_key": "ed25519:DdMCtgJJNiHyr8ckyqX3TQeX4tCn9Yv9PXXFPXh6wmLx",
+    "is_slashed": false,
+    "stake": "101810703298321520320521482713",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "sub1.crazylandd.betanet",
+    "public_key": "ed25519:AGYymbNtSAjyDL9KPL9seaKt3bocq1n86jbmC2eTVQz5",
+    "is_slashed": false,
+    "stake": "115424335790545488337715342796",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "swimmingpool",
+    "public_key": "ed25519:99edaDdRDXvmyKW4XenngZEDAn5KA12SBCk1GXZmoxrH",
+    "is_slashed": false,
+    "stake": "104384009640131170547371849855",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "swissqstakepoolsw3",
+    "public_key": "ed25519:6KeKEp9fbdxVrxKVncqPEa4nUBD1rVgTxXyEwtjsstAc",
+    "is_slashed": false,
+    "stake": "154334662712899409123182301834",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "tatianka",
+    "public_key": "ed25519:5tZXiD3NPNKM81JkuBDAcVus39D7KiWtX1EpPTX9X2MG",
+    "is_slashed": false,
+    "stake": "114981067763279548273627925774",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 98,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "techno_validator",
+    "public_key": "ed25519:9DfYjWiodKeCHmAa5xmJpVLxupbafw6DQLNZ5tUhj6TS",
+    "is_slashed": false,
+    "stake": "211690485002550655285311403384",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 200,
+    "num_expected_blocks": 200
+  },
+  {
+    "account_id": "tommywesley",
+    "public_key": "ed25519:EZS7dMdmoDDmr6nKHuSx1aDrdvQQagsrsjEPStMV1yUe",
+    "is_slashed": false,
+    "stake": "115311867577232984796009693918",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 99,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "top",
+    "public_key": "ed25519:BLnMv75gXmyizBxcdwTCCZFTYbSd6gRzs5qSDxpCTg1J",
+    "is_slashed": false,
+    "stake": "141672564816664562082569023619",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "valeraverim",
+    "public_key": "ed25519:GmP7G7AECUZaeR3QW77PUz2oERisBbGQyDAqyK8Qi4Ei",
+    "is_slashed": false,
+    "stake": "118751013107283629631574538824",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "validator_italia_contract",
+    "public_key": "ed25519:HkchASewGKi7cHiif44mtB1xd3oxyxsNGd8sLgemKybP",
+    "is_slashed": false,
+    "stake": "124004233997562120746568468417",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "villiamsivertsen",
+    "public_key": "ed25519:BM2HyTL9T52gxp1MGcCZCjrDyKsWY6FmEffkWssdZn7u",
+    "is_slashed": false,
+    "stake": "114885894022141435496448002814",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "vipstakes",
+    "public_key": "ed25519:DmSyLLRR8zjCUiYNz8PRBQtmE4HbLVrzFoDJSk6zT9AK",
+    "is_slashed": false,
+    "stake": "104810622191627923294146110029",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "vlad-validator.test",
+    "public_key": "ed25519:3zvhMcdSswKvGyjYBqEZoXascpiVL85ZHvQJDTxZ2G8x",
+    "is_slashed": false,
+    "stake": "108683893172335405476453919487",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "volvos60909",
+    "public_key": "ed25519:FLXP138XEfB7WRf9BS1NgpqzBnHWJbPqbReuB4wASxz3",
+    "is_slashed": false,
+    "stake": "114111442028878497958241452328",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "vova",
+    "public_key": "ed25519:Hd1jGxyiyVJ4jzvVBMtHd8fyu66rc96cRUHLaPbjBNwR",
+    "is_slashed": false,
+    "stake": "143811165391243704042761010068",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "warger_sub",
+    "public_key": "ed25519:CthHxQz2jmLgFNMyT2Vp5FzhXEwWhaBBevCEL7nZwiHR",
+    "is_slashed": false,
+    "stake": "129617212512735928570290360896",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "wetez",
+    "public_key": "ed25519:2PBULcGHiUovBne7WadfySqYNtg7eRbMgHMuXToDReLM",
+    "is_slashed": false,
+    "stake": "121935795623302372760255471286",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "yyyyyyyyyyyyy1",
+    "public_key": "ed25519:EP3xmkFhPcZwhuqacC7TibwbjhuyHd1JeiXU51gkde9n",
+    "is_slashed": false,
+    "stake": "105346399089282578447315567135",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 99,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "zebra",
+    "public_key": "ed25519:9qFEiVYJZQnX94Gtm7WEV1e49BMSMdHzcpbjCcW4bnHe",
+    "is_slashed": false,
+    "stake": "115739999999979572377128380000",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "zenqqqq",
+    "public_key": "ed25519:8bR6a9bHCBWNRWGAs9gWWFrwtfD24CsTknNjHwhfdUAh",
+    "is_slashed": false,
+    "stake": "110990363124073625198295010416",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "zeropool",
+    "public_key": "ed25519:GznaJ4Db43rUo9drAcyo7XZHik2EA6pLUS2JadehuCSS",
+    "is_slashed": false,
+    "stake": "110468417452723811035260694703",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  },
+  {
+    "account_id": "zpooll",
+    "public_key": "ed25519:5hC9dCR1KTgBBR5FNm7fQtPCZQAacMJsGNHxfarTZSV6",
+    "is_slashed": false,
+    "stake": "120790413413858547773385644167",
+    "shards": [
+      0
+    ],
+    "num_produced_blocks": 100,
+    "num_expected_blocks": 100
+  }
+]
