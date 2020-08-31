@@ -1,7 +1,8 @@
 const axios = require("axios");
 const fs = require("fs");
+const process = require("process");
 
-const URL = "https://rpc.betanet.near.org";
+const NEAR_RPC_URL = process.env.NEAR_RPC_URL || "https://rpc.betanet.near.org";
 
 async function getValidators(url, blockHeight) {
   const { data } = await axios.post(url, {
@@ -10,7 +11,10 @@ async function getValidators(url, blockHeight) {
     method: "validators",
     params: [blockHeight],
   });
-  if (!data || (!data.error && (!data.result || !data.result.epoch_start_height))) {
+  if (
+    !data ||
+    (!data.error && (!data.result || !data.result.epoch_start_height))
+  ) {
     throw Error(`Unknown API response: ${data}`);
   }
   return data;
@@ -50,12 +54,11 @@ const sendRequestsForGivenPeriod = async (url) => {
 const writeFile = ({ lastBlockHeightInPreviousEpoch, validators }) => {
   const jsonData = JSON.stringify(validators, null, 2);
   try {
-    fs.mkdirSync('stats');
+    fs.mkdirSync("stats");
   } catch {}
   fs.writeFileSync(`stats/${lastBlockHeightInPreviousEpoch}.json`, jsonData);
 };
 
-sendRequestsForGivenPeriod(URL).then(writeFile);
+sendRequestsForGivenPeriod(NEAR_RPC_URL).then(writeFile);
 
 // const delayInterval = setInterval(sendData, 2000);
-
