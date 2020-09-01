@@ -20,9 +20,9 @@ async function getValidators(url, blockHeight) {
   return data;
 }
 
-const getCurrentEpochStart = async (url) => {
+async function getEpochStart(url, blockHeight) {
   try {
-    const response = await getValidators(url, null);
+    const response = await getValidators(url, blockHeight || null);
     if (response.error) {
       throw Error(response.error);
     }
@@ -32,33 +32,47 @@ const getCurrentEpochStart = async (url) => {
     console.log("error: ", error);
     throw error;
   }
-};
+}
 
-const sendRequestsForGivenPeriod = async (url) => {
-  let lastBlockHeightInPreviousEpoch = (await getCurrentEpochStart(url)) - 1;
+async function fetchValidationStats(url, blockHeight) {
+  if (!blockHeight) {
+    blockHeight = (await getEpochStart(url)) - 1;
+  }
   while (true) {
-    const currentValidators = await getValidators(
-      url,
-      lastBlockHeightInPreviousEpoch
+    console.log(
+      "Trying to fetch validation stats for the block #",
+      blockHeight
     );
+    const currentValidators = await getValidators(url, blockHeight);
     if (currentValidators.result) {
       return {
-        lastBlockHeightInPreviousEpoch,
+        blockHeight,
         validators: currentValidators.result.current_validators,
       };
     }
-    --lastBlockHeightInPreviousEpoch;
+    --blockHeight;
   }
-};
+}
 
-const writeFile = ({ lastBlockHeightInPreviousEpoch, validators }) => {
+function writeFile({ blockHeight, validators }) {
   const jsonData = JSON.stringify(validators, null, 2);
   try {
     fs.mkdirSync("stats");
   } catch {}
-  fs.writeFileSync(`stats/${lastBlockHeightInPreviousEpoch}.json`, jsonData);
-};
+  fs.writeFileSync(`stats/${blockHeight}.json`, jsonData);
+  console.log("Saved validation stats as of block #", blockHeight);
+}
 
-sendRequestsForGivenPeriod(NEAR_RPC_URL).then(writeFile);
+async function fetchHistoricalValidationStats(url) {
+  let blockHeight;
+  while (true) {
+    const validationStats = await fetchValidationStats(url, blockHeight);
+    writeFile(validationStats);
+    blockHeight = (await getEpochStart(url, validationStats.blockHeight)) - 1;
+  }
+}
+
+fetchValidationStats(NEAR_RPC_URL).then(writeFile);
+//fetchHistoricalValidationStats(NEAR_RPC_URL);
 
 // const delayInterval = setInterval(sendData, 2000);
