@@ -1,0 +1,47 @@
+[
+  {
+    "account_id": "nfvalidator1.near",
+    "num_expected_blocks": 10368,
+    "num_produced_blocks": 10368
+  },
+  {
+    "account_id": "nfvalidator4.near",
+    "num_expected_blocks": 10368,
+    "num_produced_blocks": 10368
+  },
+  {
+    "account_id": "nfvalidator3.near",
+    "num_expected_blocks": 10368,
+    "num_produced_blocks": 10365
+  },
+  {
+    "account_id": "nfvalidator2.near",
+    "num_expected_blocks": 9936,
+    "num_produced_blocks": 9936
+  },
+  {
+    "account_id": "buildlinks.poolv1.near",
+    "num_expected_blocks": 432,
+    "num_produced_blocks": 432
+  },
+  {
+    "account_id": "cryptium.poolv1.near",
+    "num_expected_blocks": 432,
+    "num_produced_blocks": 432
+  },
+  {
+    "account_id": "dsrvlabs.poolv1.near",
+    "num_expected_blocks": 432,
+    "num_produced_blocks": 432
+  },
+  {
+    "account_id": "staked.poolv1.near",
+    "num_expected_blocks": 432,
+    "num_produced_blocks": 432
+  },
+  {
+    "account_id": "dokiacapital.poolv1.near",
+    "num_expected_blocks": 432,
+    "num_produced_blocks": 370
+  }
+]
