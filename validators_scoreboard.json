@@ -1,33 +1,33 @@
 [
   {
     "account_id": "nfvalidator4.near",
-    "num_expected_blocks": 1218245,
-    "num_produced_blocks": 1216971
+    "num_expected_blocks": 1228613,
+    "num_produced_blocks": 1227339
   },
   {
     "account_id": "nfvalidator1.near",
-    "num_expected_blocks": 1217810,
-    "num_produced_blocks": 1216841
+    "num_expected_blocks": 1228178,
+    "num_produced_blocks": 1227209
   },
   {
     "account_id": "nfvalidator2.near",
-    "num_expected_blocks": 1216950,
-    "num_produced_blocks": 1215964
+    "num_expected_blocks": 1227318,
+    "num_produced_blocks": 1226332
   },
   {
     "account_id": "nfvalidator3.near",
-    "num_expected_blocks": 899000,
-    "num_produced_blocks": 863660
+    "num_expected_blocks": 908936,
+    "num_produced_blocks": 873596
   },
   {
     "account_id": "staked.poolv1.near",
-    "num_expected_blocks": 6048,
-    "num_produced_blocks": 6047
+    "num_expected_blocks": 6480,
+    "num_produced_blocks": 6479
   },
   {
     "account_id": "dsrvlabs.poolv1.near",
-    "num_expected_blocks": 5616,
-    "num_produced_blocks": 5616
+    "num_expected_blocks": 6048,
+    "num_produced_blocks": 6048
   },
   {
     "account_id": "rocknroll.poolv1.near",
@@ -36,17 +36,17 @@
   },
   {
     "account_id": "cryptium.poolv1.near",
-    "num_expected_blocks": 3888,
-    "num_produced_blocks": 3888
+    "num_expected_blocks": 4320,
+    "num_produced_blocks": 4320
   },
   {
     "account_id": "dokiacapital.poolv1.near",
-    "num_expected_blocks": 3888,
-    "num_produced_blocks": 3800
+    "num_expected_blocks": 4320,
+    "num_produced_blocks": 4232
   },
   {
     "account_id": "buildlinks.poolv1.near",
-    "num_expected_blocks": 3024,
-    "num_produced_blocks": 3024
+    "num_expected_blocks": 3456,
+    "num_produced_blocks": 3456
   }
 ]
