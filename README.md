@@ -47,3 +47,10 @@ $ npm run aggregate:scoreboard
 ```
 
 This will produce a `validators_scoreboard.csv` in the `stats` folder.
+
+### Generate HTML
+
+```
+cd stats
+python3 leaderboard.py
+```

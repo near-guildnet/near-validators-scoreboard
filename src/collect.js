@@ -2,7 +2,7 @@ const axios = require("axios");
 const fs = require("fs");
 const process = require("process");
 
-const NEAR_RPC_URL = process.env.NEAR_RPC_URL || "https://rpc.betanet.near.org";
+const NEAR_RPC_URL = process.env.NEAR_RPC_URL || "https://rpc.openshards.io/";
 
 async function getValidators(url, blockHeight) {
   const { data } = await axios.post(url, {
