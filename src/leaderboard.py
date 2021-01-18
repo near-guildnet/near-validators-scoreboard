@@ -11,3 +11,5 @@ scoreboard.to_html("validators_scoreboard.html")
 # assign the file to a variable (string)  
 html_file = scoreboard.to_html()
 
+html_file.write('<!DOCTYPE html><-- Your Code Here --> <html><body>')
+html_file.close()
