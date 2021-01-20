@@ -51,4 +51,6 @@ async function aggregateValidatorsScoreboard(statsFolder) {
   fs.writeFileSync(path.join(statsFolder, 'validators_scoreboard.csv'), validatorsScoreboardCsv)
 }
 
+
+// Define the full path here if you would like to schedule with cron
 aggregateValidatorsScoreboard('./stats').catch(console.error)
