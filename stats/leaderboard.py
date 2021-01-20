@@ -1,12 +1,14 @@
+import os
 import pandas as pd
 
-# need header
+# Remove old html file
+os.remove("/pathto--->>/stats/output/validators_scoreboard.html")
 
-# create variable with csv data
-scoreboard = pd.read_csv("validators_scoreboard.csv")
+# create variable with csv data (last_epoch)
+scoreboard = pd.read_csv("/pathto--->>/scoreboard/stats/validators_scoreboard.csv")
 
-# to save as html file named "validators_scoreboard"
-scoreboard.to_html("validators_scoreboard.html")
+# save as html file
+scoreboard.to_html("/pathto--->>/scoreboard/stats/output/validators_scoreboard.html")
 
 # assign the file to a variable (string)
 html_file = scoreboard.to_html()
@@ -19,12 +21,31 @@ add_css = """<!DOCTYPE html>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validator Scoreboard</title>
-    <script src="css/styles.css">
+    <style>
+      table {
+          width: 50%;
+          border-collapse: collapse;
+        }
+
+        table, td, tr {
+            border: 0px solid black;
+          }
+
+        td {
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+          }
+        th {
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+      </style>
 </head>
 <body>
+<center>
 """
 
-with open('validators_scoreboard.html', 'r+') as f:
+with open('/pathto--->>/scoreboard/stats/validators_scoreboard.html', 'r+') as f:
     lines = f.readlines()
     for i, line in enumerate(lines):
         if line.startswith('<table'):   # find a pattern so that we can add next to that line
@@ -36,11 +57,11 @@ with open('validators_scoreboard.html', 'r+') as f:
 
 # Add Additional HTML to end
 add_footer =  """
-</script>
+</center>
 </body>
 """
 
-with open('validators_scoreboard.html', 'r+') as f:
+with open('/pathto--->>/scoreboard/stats/validators_scoreboard.html', 'r+') as f:
     lines = f.readlines()
     for i, line in enumerate(lines):
         if line.startswith('</table>'):   # find a pattern so that we can add next to that line
