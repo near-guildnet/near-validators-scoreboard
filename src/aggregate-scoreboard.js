@@ -45,7 +45,7 @@ async function aggregateValidatorsScoreboard(statsFolder) {
   for (const [account_id, validatorStats] of validatorsScoreboard) {
     validatorsScoreboardCsv += `"${account_id}",${validatorStats.num_produced_blocks},${
       validatorStats.num_expected_blocks
-    },${validatorStats.num_produced_blocks / validatorStats.num_expected_blocks}\n`
+    },${validatorStats.num_produced_blocks / validatorStats.num_expected_blocks * 100}\n`
   }
 
   fs.writeFileSync(path.join(statsFolder, 'validators_scoreboard.csv'), validatorsScoreboardCsv)
