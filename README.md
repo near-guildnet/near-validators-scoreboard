@@ -48,9 +48,20 @@ $ npm run aggregate:scoreboard
 
 This will produce a `validators_scoreboard.csv` in the `stats` folder.
 
-### Generate HTML
+### Set up using crontab output goes to .../stats/output/
 
+You will need python
 ```
-cd stats
-python3 leaderboard.py
+sudo apt install python3
 ```
+
+crontab -e
+```
+# This will run run the collect script every 10 minutes if not a new epoch nothing is done
+*/10 * * * * /usr/bin/node /pathto_root_of_app/npm run collect:previous-epoch
+# This will aggregate the stats and generate the html file every hour at the minute 32 if no new data then nothing generated
+32 * * * * python3 /pathto_root_of_app/src/leaderboard.py
+```
+
+### Serve Config
+TODO...
