@@ -48,9 +48,19 @@ $ npm run aggregate:scoreboard
 
 This will produce a `validators_scoreboard.csv` in the `stats` folder.
 
-### Set up using crontab 
+### Automated update - Set up using crontab 
 
-You will need python
+- First edit src/scoreboard.py
+```
+There are 4 paths in the script make them correct..
+```
+
+- Second edit src/aggregate-scoreboard.js
+```
+change the 3rd line to the correct path 
+```
+
+You will also need python
 ```
 sudo apt install python3
 ```
