@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const statsFolder = "/thepathto/stats"
 
 async function aggregateValidatorsScoreboard(statsFolder) {
   const dir = await fs.promises.opendir(statsFolder)
@@ -51,6 +52,5 @@ async function aggregateValidatorsScoreboard(statsFolder) {
   fs.writeFileSync(path.join(statsFolder, 'validators_scoreboard.csv'), validatorsScoreboardCsv)
 }
 
-
-// Define the full path here if you would like to schedule with cron
-aggregateValidatorsScoreboard('./stats').catch(console.error)
+// Define the path to the stats folder
+aggregateValidatorsScoreboard(statsFolder).catch(console.error)
