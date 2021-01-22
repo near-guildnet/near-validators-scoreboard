@@ -48,7 +48,7 @@ $ npm run aggregate:scoreboard
 
 This will produce a `validators_scoreboard.csv` in the `stats` folder.
 
-### Set up using crontab output goes to .../stats/output/
+### Set up using crontab 
 
 You will need python
 ```
@@ -64,4 +64,6 @@ crontab -e
 ```
 
 ### Serve Config
-TODO...
+Todo setup serve for /stats/output/
+
+
