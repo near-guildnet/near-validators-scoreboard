@@ -34,11 +34,12 @@ node0,500,500,100
 
 ### Setup
 
+- Edit src/aggregate-scoreboard.js
 ```
-$ npm install
+change the 3rd line to the correct path 
 ```
 
-You will also need the collected data in the current folder.
+You will also need the collected data in the /stats folder.
 
 ### Run
 
@@ -53,11 +54,6 @@ This will produce a `validators_scoreboard.csv` in the `stats` folder.
 - First edit src/scoreboard.py
 ```
 There are 4 paths in the script make them correct..
-```
-
-- Second edit src/aggregate-scoreboard.js
-```
-change the 3rd line to the correct path 
 ```
 
 You will also need python
