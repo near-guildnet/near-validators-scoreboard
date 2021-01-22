@@ -57,9 +57,9 @@ sudo apt install python3
 
 crontab -e
 ```
-# This will run run the collect script every 10 minutes if not a new epoch nothing is done
+# This will run run the collect script every 10 minutes 
 */10 * * * * /usr/bin/node /pathto_root_of_app/npm run collect:previous-epoch
-# This will aggregate the stats and generate the html file every hour at the minute 32 if no new data then nothing generated
+# This will aggregate the stats and generate the html file every hour at the minute 32 
 32 * * * * python3 /pathto_root_of_app/src/leaderboard.py
 ```
 
