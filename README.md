@@ -6,7 +6,7 @@ This is a simple implementation of a scoreboard for NEAR Validators started duri
 
 A script fetching the stats about the validators epoch by epoch (the number of produced blocks and the number of expected blocks).
 
-Deploying it as an hour-interval cron job will produce all the necessary stats.
+**Deploying it as an hour-interval cron job will produce all the necessary stats.**
 
 ### Setup
 
@@ -34,7 +34,7 @@ node0,500,500,100
 
 ### Setup
 
-- Edit src/aggregate-scoreboard.js
+**- Edit src/aggregate-scoreboard.js**
 ```
 change the 3rd line to the correct path 
 ```
