@@ -7,10 +7,11 @@
     "collect:previous-epoch": "node src/collect.js",
     "aggregate:scoreboard": "node src/aggregate-scoreboard.js"
   },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "serve": "^11.3.2"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.19.2"
-  }
+  "license": "ISC"
 }
