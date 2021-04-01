@@ -22,6 +22,16 @@ Single run produces a JSON file with the stats for the epoch before the current.
 $ npm run collect:previous-epoch
 ```
 
+Historical run produces a JSON file with the stats for the epoch or block height specified.
+
+```bash
+# get at a specific block
+$ npm run collect:previous-epoch -- --block_height 21042141
+
+# get a specific epoch
+$ npm run collect:previous-epoch -- --block_height 21042141 --find_epoch
+```
+
 ## Data Aggregation
 
 A simple script that produces the scoreboard CSV file from the collected epoch stats. The CSV format:

@@ -1,6 +1,7 @@
 const axios = require("axios");
 const fs = require("fs");
 const process = require("process");
+const args = require("args");
 
 const NEAR_RPC_URL = process.env.NEAR_RPC_URL || "https://rpc.openshards.io/";
 
@@ -26,6 +27,7 @@ async function getEpochStart(url, blockHeight) {
     if (response.error) {
       throw Error(response.error);
     }
+    console.log('response.result', JSON.stringify(response.result));
     const { epoch_start_height: epochStartHeight } = response.result;
     return epochStartHeight;
   } catch (error) {
@@ -34,9 +36,12 @@ async function getEpochStart(url, blockHeight) {
   }
 }
 
-async function fetchValidationStats(url, blockHeight) {
+async function fetchValidationStats(url, blockHeight, findEpoch) {
   if (!blockHeight) {
     blockHeight = (await getEpochStart(url)) - 1;
+  }
+  if (findEpoch && blockHeight) {
+    blockHeight = (await getEpochStart(url, blockHeight)) - 1;
   }
   while (true) {
     console.log(
@@ -72,7 +77,17 @@ async function fetchHistoricalValidationStats(url) {
   }
 }
 
-fetchValidationStats(NEAR_RPC_URL).then(writeFile);
+args
+  .option('block_height', 'The block height to retrieve historical data, you can also use "b". \n example: --block_height 24042142')
+  .option('find_epoch', 'Used in conjunction with block_height, will look for epoch data, you can also use "f". \n example: --find_epoch')
+
+const flags = args.parse(process.argv)
+
+if (flags.blockHeight) {
+  console.log(`Starting historical on block # ${flags.blockHeight}`);
+}
+
+fetchValidationStats(NEAR_RPC_URL, flags.blockHeight, flags.findEpoch).then(writeFile);
 //fetchHistoricalValidationStats(NEAR_RPC_URL);
 
 // const delayInterval = setInterval(sendData, 2000);
